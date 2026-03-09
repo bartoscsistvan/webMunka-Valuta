@@ -1,0 +1,8 @@
+#bigbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-style: groove;
+    border-width: 2px;
+    border-color: black;
+}

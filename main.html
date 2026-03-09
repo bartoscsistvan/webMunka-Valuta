@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Valuta váltás</title>
+</head>
+<body>
+    <div id="bigbox">
+        <h1>Valuta váltó</h1>
+        <p>Összeg(HUF)</p>
+        <input type="number" id="money">
+        <p>Cél valuta</p>
+        <Select id="selectors">
+            <option value="EUR">EUR</option>
+            <option value="GBP">GBP</option>
+            <option value="USD">USD </option>
+        </Select>
+        <button onclick="go()">Átváltás</button>
+        <div id="ret">
+        </div>
+    </div>
+</body>
+</html>
