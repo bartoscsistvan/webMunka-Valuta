@@ -8,15 +8,11 @@ function go(){
     .then(response => response.json())
     .then(data => {
     console.log(data);
-    calculator(data);
+
+    let p = document.getElementById("ret");
+    let money2Conv = document.getElementById("money").value;
+    p.innerHTML = (money2Conv*data.data.mid).toFixed(2) +" "+ toConvert;
 });
 }
 
-let displayer = document.getElementById("ret");
-
-function calculator(data){
-    let p = document.getElementById("ret");
-    let money2Conv = document.getElementById("money").value;
-    p.innerHTML = (money2Conv*data.data.mid);
-}
 
