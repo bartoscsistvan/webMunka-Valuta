@@ -14,21 +14,26 @@
     <div class="d-flex w-50 flex-column border rounded shadow p-3 mb-5 bg-body-tertiar align-items-center">
 
         <div class="p-2"><h1>💱Valuta váltó</h1></div>
-        <div class="p-2"><p>Összeg(HUF)</p></div>
-        <div class="p-2"><input type="number" id="money" class="rounded border"></div>
-        <div class="p-2"><p>Cél valuta</p></div>
-        <div class="p-2">
-            <Select id="selectors" class="rounded border">
-                <option value="EUR">EUR</option>
-                <option value="GBP">GBP</option>
-                <option value="USD">USD </option>
-            </Select>
-        </div>
-        <div class="p-2"><button onclick="go()" class="text-light bg-primary rounded border">Átváltás</button></div>
-        <div class="p-2">
-            <div id="ret">
+
+        <div class="align-items-left">
+
+            <div class="p-2"><p>Összeg(HUF)</p></div>
+            <div class="p-2"><input type="number" id="money" class="rounded border"></div>
+            <div class="p-2"><p>Cél valuta</p></div>
+            <div class="p-2">
+                <Select id="selectors" class="rounded border">
+                    <option value="EUR">EUR</option>
+                    <option value="GBP">GBP</option>
+                    <option value="USD">USD </option>
+                </Select>
             </div>
         </div>
+        <div class="p-2"><button onclick="go()" class="text-light bg-primary rounded border">Átváltás</button></div>
+            <div class="p-2">
+                <div id="ret">
+                </div>
+            </div>
+
 
     </div>
 
