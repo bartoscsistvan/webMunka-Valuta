@@ -11,7 +11,7 @@ function go(){
 
     let p = document.getElementById("ret");
     let money2Conv = document.getElementById("money").value;
-    p.innerHTML = (money2Conv*data.data.mid).toFixed(2) +" "+ toConvert;
+    p.innerHTML = money2Conv + " FT = " +(money2Conv*data.data.mid).toFixed(2) +" "+ toConvert;
 });
 }
 
